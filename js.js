@@ -124,6 +124,7 @@
                 $(divComentario).find('.conteudoAssunto').html(assunto);
                 $(divComentario).find('.conteudoPergunta').html(`<p>${pergunta}</p>`);
                 $("#enviarComentario").attr('edit', 0);
+                mudarTelaEnvio();
             }
             else{
                 mudarTelaEnvio();
