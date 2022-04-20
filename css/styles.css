@@ -8072,7 +8072,7 @@ h3 {
     border: solid 1px rgba(114, 92, 92, 0.3);
     color: #333333;
     padding: 10px;
-    background-image: url("/img/mundoSelect.png");
+    background-image: url("../img/mundoSelect.png");
     background-repeat: no-repeat;
     background-position: right 12px center;
     background-color: #fdf1eb;
