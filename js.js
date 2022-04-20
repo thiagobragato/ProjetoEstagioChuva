@@ -1,4 +1,3 @@
-(function(){
     let comentario = 0;
     $(document).ready(function() {
         $("#btnmob").click(() =>{
@@ -48,7 +47,7 @@
             $('#terctela').toggle();
             $('#segtela').toggle();
         }
-        function adicionaHTML(assunto, pergunta){
+        function adicionaHTML(assunto,pergunta){
             $("#conteudoPerguntas").prepend(`
             <div id="edittop" class="editopicos" dataComentario=${comentario}>
             <div class="perguntas">
@@ -123,7 +122,7 @@
             if(edit){
                 let divComentario = $(`.editopicos[dataComentario = '${valorComentario}']`);
                 $(divComentario).find('.conteudoAssunto').html(assunto);
-                $(divComentario).find('.conteudoPergunta').html(pergunta);
+                $(divComentario).find('.conteudoPergunta').html(`<p>${pergunta}</p>`);
                 $("#enviarComentario").attr('edit', 0);
             }
             else{
@@ -133,7 +132,6 @@
             $(this)[0].reset();
         });
     });
-})()
 
 function chamarSegundaTela() {
     $('#terctela').toggle();

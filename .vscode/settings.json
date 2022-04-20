@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "carros"
+    "liveServer.settings.multiRootWorkspaceName": "carros",
+    "liveServer.settings.port": 5501
 }
