@@ -7726,44 +7726,6 @@ h3 {
     line-height: 120%;
     letter-spacing: 0.02em;
   }
-
-  .p-footer {
-    font-family: "Fredoka One", cursive;
-    font-size: 16px;
-    line-height: 130%;
-  }
-
-  li {
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    line-height: 130%;
-    list-style: none;
-  }
-
-  button {
-    font-family: "Fredoka One", cursive;
-    font-size: 16px;
-    line-height: 160%;
-  }
-
-  .tab-fre {
-    font-size: 28px;
-    line-height: 34px;
-    font-family: "Fredoka One", cursive;
-  }
-
-  .tab-mon {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 200%;
-    font-family: "Montserrat", sans-serif;
-  }
-
-  .tab-p {
-    font-size: 12px;
-    line-height: 200%;
-    font-family: "Fredoka One", cursive;
-  }
 }
 .c-marrom {
   color: #725c5c !important;
@@ -8056,32 +8018,6 @@ h3 {
   fill: #ED7839;
 }
 
-/*
-button,
-input,
-select {
-    &:focus,
-    &:active,
-    &:focus &:active {
-        outline: none!important;
-        box-shadow: none!important;
-    }
-}
-
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover,
-textarea:-webkit-autofill:focus,
-select:-webkit-autofill,
-select:-webkit-autofill:hover,
-select:-webkit-autofill:focus {
-    border-color: $grey;
-    -webkit-text-fill-color: $grey;
-    transition: background-color 5000s ease-in-out 0s;
-}
-*/
 @media screen and (min-width: 0px) {
   header nav {
     background-image: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
@@ -8138,7 +8074,7 @@ select:-webkit-autofill:focus {
     padding: 10px;
     background-image: url("/img/mundoSelect.png");
     background-repeat: no-repeat;
-    background-position: left 8px center;
+    background-position: right 12px center;
     background-color: #fdf1eb;
   }
   #top .cont-top .cont-bem p {
@@ -8522,6 +8458,7 @@ select:-webkit-autofill:focus {
   #top .cont-top .cont-bem .select select {
     padding: 8px 8px 8px 36px;
     margin-right: 22px;
+    background-position: left 8px center;
   }
   #top .cont-top .img {
     padding-right: 29px;
